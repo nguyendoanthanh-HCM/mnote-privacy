@@ -12,24 +12,36 @@
   .meta { color: #677484; font-size: 14px; margin: 0 0 20px; }
   li { margin: 4px 0; }
   a { color: #0070F4; }
+  .box { background: #F3F4F9; border-radius: 12px; padding: 12px 16px; }
 </style>
 </head>
 <body>
 <main>
 <h1>Chính sách quyền riêng tư – MNote</h1>
-<p class="meta">Ứng dụng MNote – Sổ bán hàng (Android, mã gói vn.mnote.app) · Nhà phát triển: DEOTEC · Hiệu lực từ 19/11/2026</p>
+<p class="meta">Ứng dụng MNote – Sổ bán hàng (Android, mã gói vn.mnote.app) · Nhà phát triển: DEOTEC · Hiệu lực từ 20/11/2026</p>
 
-<p>MNote là sổ bán hàng cho quán nhỏ: ghi đơn, kho, món, chi phí, tài sản, khoản vay và sổ thuế hộ kinh doanh. Chính sách này giải thích dữ liệu nào được xử lý khi bạn dùng MNote.</p>
+<p>MNote là sổ bán hàng cho quán nhỏ: ghi đơn, kho, món, chi phí, tài sản, khoản vay và sổ thuế hộ kinh doanh. Từ phiên bản có tài khoản, dữ liệu của quán được lưu trên điện thoại và đồng bộ lên máy chủ MNote để chủ quán và nhân viên dùng chung trên nhiều máy. Chính sách này giải thích dữ liệu nào được thu thập, dùng vào việc gì, lưu ở đâu và cách xoá.</p>
 
-<h2>1. Dữ liệu bán hàng của bạn chỉ nằm trên điện thoại</h2>
+<h2>1. Tài khoản</h2>
 <ul>
-  <li>MNote <strong>không có tài khoản, không đăng nhập</strong> và không có máy chủ riêng. Đơn hàng, món, kho, chi phí, thông tin cửa hàng, mã số thuế, tài khoản ngân hàng nhận tiền (để tạo mã VietQR) đều lưu trong bộ nhớ của ứng dụng trên máy bạn.</li>
-  <li>Chúng tôi <strong>không thu thập, không xem và không lưu</strong> dữ liệu này ở bất kỳ đâu ngoài máy của bạn.</li>
-  <li>Khi bạn tự xuất file Excel, file sao lưu hoặc tờ khai thuế và chọn chia sẻ (Zalo, email, Google Drive…), file được gửi tới nơi bạn chọn theo chính sách của dịch vụ đó. File sao lưu có thể đặt mật khẩu để mã hoá.</li>
-  <li>Gỡ ứng dụng sẽ xoá toàn bộ dữ liệu trên máy. Hãy sao lưu trước nếu cần giữ lại.</li>
+  <li>Để dùng MNote, chủ quán đăng ký bằng <strong>số điện thoại, họ tên, mật khẩu và tên quán</strong>. Nhân viên do chủ quán tạo tài khoản (số điện thoại, họ tên, mật khẩu).</li>
+  <li>Mật khẩu được lưu dưới dạng băm (bcrypt), chúng tôi không đọc được mật khẩu gốc.</li>
+  <li>Số điện thoại chỉ dùng để đăng nhập. Chúng tôi không gửi tin nhắn quảng cáo và không chia sẻ số điện thoại cho bên thứ ba.</li>
 </ul>
 
-<h2>2. Quảng cáo (Google AdMob)</h2>
+<h2>2. Dữ liệu bán hàng của quán</h2>
+<ul>
+  <li>Dữ liệu bạn nhập vào MNote gồm: đơn hàng, món và định mức, nguyên liệu và tồn kho, khách hàng (tên, số điện thoại nếu bạn ghi), chi phí, tài sản, khoản vay, thông tin cửa hàng (tên, địa chỉ, mã số thuế, tài khoản ngân hàng nhận tiền để tạo mã VietQR).</li>
+  <li>Dữ liệu này được lưu trên điện thoại và <strong>đồng bộ lên máy chủ MNote</strong> (Google Cloud, khu vực Singapore) để: dùng được trên nhiều máy, nhân viên bán hàng cùng sổ với chủ quán, và tải lại khi đổi máy.</li>
+  <li>Chỉ tài khoản thuộc quán mới truy cập được dữ liệu của quán. Nhân viên chỉ xem được phần bán hàng (món, đơn, thu tiền, tồn kho); chi phí, nhập kho, tài sản, khoản vay chỉ chủ quán xem được.</li>
+  <li>Chúng tôi <strong>không bán, không cho thuê</strong> và không dùng dữ liệu bán hàng của quán để quảng cáo. Nhân viên kỹ thuật của DEOTEC chỉ truy cập khi cần xử lý sự cố bạn yêu cầu hoặc theo yêu cầu của cơ quan nhà nước có thẩm quyền.</li>
+  <li>Khi bạn tự xuất file Excel, file sao lưu hoặc tờ khai thuế và chọn chia sẻ (Zalo, email, Google Drive…), file được gửi tới nơi bạn chọn theo chính sách của dịch vụ đó. File sao lưu có thể đặt mật khẩu để mã hoá.</li>
+</ul>
+
+<h2>3. Danh mục món và nguyên liệu dùng chung</h2>
+<p>MNote có sẵn danh mục món và nguyên liệu mẫu. Khi quán thêm một món hoặc nguyên liệu chưa có trong danh mục, <strong>tên món / nguyên liệu, nhóm, đơn vị, giá bán hoặc giá nhập và định mức</strong> của mục đó được gửi về để chuẩn hoá và bổ sung vào danh mục mẫu cho các quán khác. Danh mục dùng chung không hiển thị tên quán, tên người hay bất kỳ thông tin nhận dạng nào của quán đã gửi.</p>
+
+<h2>4. Quảng cáo (Google AdMob)</h2>
 <ul>
   <li>Bản miễn phí hiển thị quảng cáo của Google AdMob. Trước khi tải quảng cáo, MNote hỏi sự đồng ý của bạn theo quy định của Google (nếu khu vực của bạn yêu cầu).</li>
   <li>SDK AdMob có thể thu thập: mã nhận dạng quảng cáo và mã thiết bị, địa chỉ IP (suy ra vị trí gần đúng), thông tin tương tác với quảng cáo, dữ liệu chẩn đoán và hiệu suất. Dữ liệu này do Google xử lý để hiển thị, đo lường quảng cáo và chống gian lận, theo <a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google</a> và <a href="https://policies.google.com/technologies/partner-sites">cách Google dùng dữ liệu từ ứng dụng đối tác</a>.</li>
@@ -37,12 +49,12 @@
   <li>Mua gói "MNote không quảng cáo" thì ứng dụng không tải SDK quảng cáo nữa.</li>
 </ul>
 
-<h2>3. Mua trong ứng dụng (Google Play)</h2>
-<p>Gói "MNote không quảng cáo" thanh toán qua Google Play bằng tài khoản Google trên máy. MNote chỉ nhận kết quả giao dịch (mã sản phẩm, trạng thái đã mua) để tắt quảng cáo; MNote không nhận và không lưu thông tin thẻ hay tài khoản ngân hàng của bạn.</p>
+<h2>5. Mua trong ứng dụng (Google Play)</h2>
+<p>Gói "MNote không quảng cáo" thanh toán qua Google Play bằng tài khoản Google trên máy. MNote chỉ nhận kết quả giao dịch (mã sản phẩm, trạng thái đã mua) để tắt quảng cáo; MNote không nhận và không lưu thông tin thẻ hay tài khoản ngân hàng thanh toán của bạn.</p>
 
-<h2>4. Quyền truy cập trên máy</h2>
+<h2>6. Quyền truy cập trên máy</h2>
 <ul>
-  <li>Internet và trạng thái mạng: tải quảng cáo, kết nối Google Play.</li>
+  <li>Internet và trạng thái mạng: đăng nhập, đồng bộ dữ liệu quán, tải quảng cáo, kết nối Google Play.</li>
   <li>Mã quảng cáo (AD_ID, Ad Services): chỉ để SDK AdMob hiển thị và đo lường quảng cáo.</li>
   <li>Thanh toán Google Play: mua gói không quảng cáo.</li>
   <li>Bộ nhớ: đọc/ghi file bạn chủ động nhập, xuất hoặc sao lưu.</li>
@@ -50,16 +62,39 @@
 </ul>
 <p>Ứng dụng không truy cập danh bạ, vị trí GPS, micro hay camera.</p>
 
-<h2>5. Trẻ em</h2>
+<h2>7. Bảo mật</h2>
+<ul>
+  <li>Mọi kết nối giữa ứng dụng và máy chủ MNote, Google đều được mã hoá (HTTPS/TLS).</li>
+  <li>Cơ sở dữ liệu trên máy chủ không mở ra Internet; chỉ ứng dụng máy chủ MNote kết nối được.</li>
+  <li>Phiên đăng nhập hết hạn tự động; đổi mật khẩu sẽ đăng xuất các máy khác. Chủ quán khoá tài khoản nhân viên thì nhân viên bị đăng xuất ngay.</li>
+  <li>Bạn nên đặt khoá màn hình cho điện thoại và mật khẩu đủ mạnh cho tài khoản.</li>
+</ul>
+
+<h2>8. Lưu giữ và xoá dữ liệu</h2>
+<ul>
+  <li>Dữ liệu quán được lưu trên máy chủ chừng nào tài khoản chủ quán còn tồn tại.</li>
+  <li>Đăng xuất sẽ xoá dữ liệu trên điện thoại đó (dữ liệu vẫn còn trên máy chủ để đăng nhập lại).</li>
+  <li>Bản sao lưu máy chủ (nếu có) được ghi đè theo chu kỳ và không giữ quá 30 ngày sau khi bạn xoá tài khoản.</li>
+</ul>
+
+<h2 id="xoa-tai-khoan">9. Xoá tài khoản và dữ liệu</h2>
+<div class="box">
+  <p><strong>Cách 1 – trong ứng dụng:</strong> mở MNote › <em>Thêm</em> › chạm vào thẻ tài khoản › <em>Xoá tài khoản</em>, nhập mật khẩu để xác nhận.</p>
+  <ul>
+    <li>Tài khoản <strong>chủ quán</strong>: xoá vĩnh viễn tài khoản, mọi tài khoản nhân viên và toàn bộ dữ liệu của quán trên máy chủ.</li>
+    <li>Tài khoản <strong>nhân viên</strong>: xoá tài khoản của nhân viên đó; dữ liệu bán hàng của quán vẫn giữ cho chủ quán.</li>
+  </ul>
+  <p><strong>Cách 2 – qua email:</strong> gửi yêu cầu tới <a href="mailto:info.deotec@gmail.com?subject=Xoa%20tai%20khoan%20MNote">info.deotec@gmail.com</a> từ bất kỳ địa chỉ nào, ghi số điện thoại đăng nhập MNote. Chúng tôi xác minh với bạn qua số điện thoại đó và xoá trong vòng 7 ngày làm việc.</p>
+  <p>Mục đã gửi vào danh mục món / nguyên liệu dùng chung (mục 3) không chứa thông tin nhận dạng quán nên được giữ lại.</p>
+</div>
+
+<h2>10. Trẻ em</h2>
 <p>MNote dành cho người kinh doanh từ 18 tuổi trở lên và không nhắm tới trẻ em.</p>
 
-<h2>6. Bảo mật</h2>
-<p>Kết nối tới Google (quảng cáo, thanh toán) được mã hoá. Dữ liệu bán hàng nằm trong vùng lưu trữ riêng của ứng dụng; bạn nên đặt khoá màn hình cho điện thoại và đặt mật khẩu cho file sao lưu.</p>
-
-<h2>7. Thay đổi chính sách</h2>
+<h2>11. Thay đổi chính sách</h2>
 <p>Khi chính sách thay đổi, chúng tôi cập nhật trang này và ngày hiệu lực ở đầu trang.</p>
 
-<h2>8. Liên hệ</h2>
+<h2>12. Liên hệ</h2>
 <p>DEOTEC – email: <a href="mailto:info.deotec@gmail.com">info.deotec@gmail.com</a></p>
 </main>
 </body>
